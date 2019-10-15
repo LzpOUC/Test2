@@ -30,7 +30,7 @@ namespace Test2.Controllers
 
         public ActionResult Cost()
         {
-            return View();
+            return View(new CostItem { About = "第一次远程构建"});
         }
     }
 }
